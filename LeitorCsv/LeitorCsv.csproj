@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Company>Pablo Emanuel</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TinyCsvParser" Version="2.6.1" />
+  </ItemGroup>
+
+</Project>
